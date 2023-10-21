@@ -14,7 +14,7 @@ const alunos = [
 ];
 
 function resultado() {
-  let teste = alunos.filter(aluno => aluno.nota > 6);
+  let teste = alunos.filter(aluno => aluno.nota >= 6);
   console.log(teste);
 }
 
